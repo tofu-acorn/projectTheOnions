@@ -1,1 +1,16 @@
-#moreText {display: none;}
+#moreText {display: none;
+}
+
+#mainheader {background-color: #343434;
+}
+
+header {
+    display: block;
+}
+
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
