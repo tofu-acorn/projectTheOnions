@@ -5,6 +5,7 @@
 .topnav {
     background-color: #333;
     overflow: hidden;
+    height: 55px;
 }
 
 /* Style the links inside the navigation bar */
@@ -49,3 +50,9 @@ body {
     margin-right: auto;
 }
 
+.heart {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: -4px;
+}
