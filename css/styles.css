@@ -38,6 +38,13 @@
     }
   }
 
+#title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    color: #700311
+}
+
 header {
     display: block;
 }
