@@ -65,3 +65,13 @@ header, footer {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+ul {
+    list-style-type: none;
+}
+
+ul li:before {
+    content: "\2665   ";
+    color: #790101;
+}
+
