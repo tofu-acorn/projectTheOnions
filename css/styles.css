@@ -75,5 +75,24 @@ ul li:before {
     color: #790101;
 }
 
+footer {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    padding: 18px 0;
+    margin-bottom: 10px;
+}
 
+@media (max-width: 700px) {
+    footer{
+        padding: 80px 15px;
+    }
+}
 
+/*This will add a nice circle around the pictures that hides some background stuff
+img {
+    border: 6px solid #2196F3;
+    border-radius: 50%;
+}
+*/
