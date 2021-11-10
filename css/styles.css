@@ -1,4 +1,7 @@
-#moreText {display: none;
+#moreText {
+    /*display: none;*/
+    
+
 }
 
 /* Add background color to the navigation bar */
@@ -73,12 +76,9 @@ ul {
 
 ul li:before {
     content: "\2665   ";
-    color: #790101;
+    color: #4f0202;
 }
-
-#moreText {
-    color: red;
-}
+    
 
 footer {
     background-color: #333;
