@@ -75,6 +75,10 @@ ul li:before {
     color: #790101;
 }
 
+#moreText {
+    color: red;
+}
+
 footer {
     background-color: #333;
     color: rgb(255, 255, 255);
