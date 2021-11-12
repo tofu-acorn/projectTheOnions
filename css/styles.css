@@ -1,5 +1,5 @@
 #moreText {
-    /*display: none;*/
+    display: none;
     
 
 }
@@ -76,8 +76,10 @@ ul {
 
 ul li:before {
     content: "\2665   ";
-    color: #4f0202;
+    color: #4f0202; 
 }
+
+
     
 
 footer {
@@ -94,6 +96,16 @@ footer {
         padding: 80px 15px;
     }
 }
+
+.wrap a {
+    float:left;
+ }
+ 
+ .wrap a:nth-child(3n+1) {
+    clear:left;
+ }
+/*added to fix pictures not being 2x2*/
+
 
 /*This will add a nice circle around the pictures that hides some background stuff
 img {
