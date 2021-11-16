@@ -1,6 +1,14 @@
-#moreText {
+/*  #moreText {
     display: none;
-}
+} */
+
+#moreText a {
+    float:left;
+ }
+ 
+ #moreText a:nth-child(2n+1) {
+    clear:left;
+ } 
 
 
 /* Add background color to the navigation bar */
