@@ -54,6 +54,10 @@
 
 /*CSS for Mushroom gravy*/
 
+li {
+  padding-left: 15px;
+}
+
 ul {
   list-style-type: none;
   
