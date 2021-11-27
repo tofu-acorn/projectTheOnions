@@ -52,6 +52,21 @@
 
 /*End code for 3 recipe cards*/
 
+/*CSS for Mushroom gravy*/
+
+ul {
+  list-style-type: none;
+}
+
+ul li:before {
+  content: "\2665   ";
+  color: #4f0202; 
+}
+
+
+
+/*End CSS for Mushroom gravy*/
+
 
 /*  #moreText {
     display: none;
@@ -186,14 +201,7 @@ header, footer {
     grid-column-end: 3;
 }
 
-ul {
-    list-style-type: none;
-}
 
-ul li:before {
-    content: "\2665   ";
-    color: #4f0202; 
-}
 
 
     
