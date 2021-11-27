@@ -21,6 +21,34 @@
   text-align: center;
   background-color: rgb(207, 207, 245);
 }
+
+/*If any of your links look strange its probably from the a: codes*/
+a:link {
+  text-decoration: none;
+  font-size: 22px;
+  color:rgb(21, 20, 20);
+  
+  
+}
+
+a:visited {
+  text-decoration: none;
+  color:rgb(146, 1, 1);
+  
+}
+
+a:hover {
+  text-decoration: underline;
+  color:rgb(146, 1, 1);
+  
+}
+
+a:active {
+  text-decoration: underline;
+  color:rgb(146, 1, 1);
+  
+}
+
 /*End code for 3 recipe cards*/
 
 
