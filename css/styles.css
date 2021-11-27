@@ -22,28 +22,29 @@
   background-color: rgb(207, 207, 245);
 }
 
-/*If any of your links look strange its probably from the a: codes*/
-a:link {
+/*If any of your links look strange its probably from the recipeCard: codes*/
+.recipeCard:link {
   text-decoration: none;
   font-size: 22px;
   color:rgb(21, 20, 20);
+  font-weight: bold;
   
   
 }
 
-a:visited {
+.recipeCard:visited {
   text-decoration: none;
   color:rgb(146, 1, 1);
   
 }
 
-a:hover {
+.recipeCard:hover {
   text-decoration: underline;
   color:rgb(146, 1, 1);
   
 }
 
-a:active {
+.recipeCard:active {
   text-decoration: underline;
   color:rgb(146, 1, 1);
   
@@ -219,6 +220,12 @@ img {
     border-radius: 50%;
 }
 */
+
+
+
+#food {
+  background-color: #333;
+}
 
 
 
