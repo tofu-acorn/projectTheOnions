@@ -1,3 +1,8 @@
+/*I think this is how I get a margin, so double check all pages. If anything went wonky, it's this code*/
+section {
+  margin-left: 10px;
+  margin-right: 20px;
+}
 
 /*This is the code for the 3 recipe cards on pan selection, plus the .column in the media query*/
 * {
@@ -228,12 +233,7 @@ footer {
 }
 
 
-/*This will add a nice circle around the pictures that hides some background stuff
-img {
-    border: 6px solid #2196F3;
-    border-radius: 50%;
-}
-*/
+
 
 
 
