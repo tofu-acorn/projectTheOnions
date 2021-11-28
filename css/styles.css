@@ -232,8 +232,24 @@ footer {
     }
 }
 
+/*This code is for the prepped onions ruler picture on the prep onions page*/
 
+.POP {
+  max-width: 100%;
+  height: auto;
+}
 
+/* For devices smaller than 420px: */
+body {
+  background-image: url('images/prepOnionsSmall.jpg');
+}
+
+/* For devices 420px and larger: */
+@media only screen and (min-device-width: 420px) {
+  body {
+    background-image: url('images/prepOnions.jpg');
+  }
+}
 
 
 
