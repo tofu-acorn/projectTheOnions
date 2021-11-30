@@ -252,6 +252,36 @@ body {
 }
 
 
+/*This is the css for the pictures/headers on the pan/equipment selection page*/
+
+/*This is for the headers such as pot/pans, lids, ect.*/
+
+#head {
+  font-weight: bolder;
+}
+
+/*This positions the pic within the text*/
+#castloc {
+  float: right;
+  width: 21.5%;
+  padding-left: 15px;
+  margin-left: 15px;
+  
+}
+
+/*This makes the picture responsive*/
+.castresize {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 780px) {
+  #castloc {
+    width: 100%;
+  }
+}
+
+
 
 
 
