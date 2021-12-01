@@ -254,13 +254,13 @@ body {
 
 /*This is the css for the pictures/headers on the pan/equipment selection page*/
 
-/*This is for the headers such as pot/pans, lids, ect.*/
+/*This is for the header pot/pans, lids, ect*/
 
 #head {
   font-weight: bolder;
 }
 
-/*This positions the pic within the text*/
+/*This positions the pan pics within the text on pan selection/equipment page*/
 #castloc {
   float: right;
   width: 21.5%;
@@ -269,7 +269,7 @@ body {
   
 }
 
-/*This makes the picture responsive*/
+/*This makes the pictures responsive on pan selection/equipment page*/
 .castresize {
   max-width: 100%;
   height: auto;
@@ -280,6 +280,33 @@ body {
     width: 100%;
   }
 }
+
+/*This is for the picture under lids on pan selection/equipment page*/
+
+* {
+  box-sizing: border-box;
+}
+
+.lidcolumn {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.lidrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+
 
 
 
