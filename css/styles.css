@@ -182,6 +182,7 @@ ul li:before {
     .column {
       width: 100%;
     }
+
   }
 
 #title {
@@ -303,6 +304,44 @@ body {
 h1 {
   text-align: center;
 }
+
+
+
+/*This is the code for the pictures on novice, advanced, and expert pages*/
+
+* {
+  box-sizing: border-box;
+}
+
+.columnrecipe {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowrecipe::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.onionrecipe {
+  text-align: center;
+}
+
+/* On screens that are 600px wide or less, pics will stack */
+@media screen and (max-width: 600px) {
+
+  .columnrecipe {
+    width: 100%;
+  }
+
+}
+
+
+
+
 
 
 
