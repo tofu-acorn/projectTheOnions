@@ -123,10 +123,8 @@ ul li:before {
 }
 
 .dropdown {
-    float: left;
     overflow: hidden;
-    
-  }
+}
   
   .dropdown .dropbtn {
     cursor: pointer;
@@ -231,7 +229,7 @@ footer {
 
 @media (max-width: 700px) {
     footer{
-        padding: 80px 15px;
+        padding: 18px 15px;
     }
 }
 
@@ -346,6 +344,48 @@ h1 {
     width: 100%;
   }
 
+  .dropdown {
+    text-align: center;
+  }
+
+  .center {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+  .dropdown {
+    float: left;
+  }
+
+}
+
+/*This is the code for the 2 roasted vegetable pictures*/
+
+#roastedvegmargin {
+  margin-left: 100px;
+}
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+  .column2 {
+    width: 100%;
+  }
 }
 
 
