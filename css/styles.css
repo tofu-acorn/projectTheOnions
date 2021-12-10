@@ -388,19 +388,11 @@ h1 {
   }
 }
 
-
-#scale a {
-  float:left;
-}
-
-#scale a:nth-child(2n+1) {
-  clear:left;
-}
-
-#scale a {
+.scale{
   text-align: center;
-  display: block;
 }
+
+
 
 
 
